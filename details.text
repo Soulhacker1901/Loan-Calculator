@@ -1,0 +1,13 @@
+1. login form is connect to signup form and alternate of that 
+signupform is linked to login form .
+
+here the    <h4>Not Have an Account? <a href="signup.php">Signup Here </a> </h4>
+code is  -  <h4> Already Have an Account? <a href="login.php"> Login Here</a> </h4>
+
+2. below line is from login.php file
+ header("location:entry.html");  
+
+(here we can also add any file of html , php instead of entry.html ...which we want to navigate !
+It will run after the successfully login form.)
+
+3.
